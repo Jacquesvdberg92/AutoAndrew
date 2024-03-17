@@ -1,0 +1,29 @@
+{
+    "exchange": {
+        "name": "binanceusdm",
+        "apiKey": "API Key Here",
+        "secret": "Secret Key here",
+        "enableRateLimit": true,
+        "options": {
+            "defaultType": "future"
+        }
+    },
+    "telegram": {
+        "appid": "App ID Here",
+        "apihash": "API Hash here",
+        "apiname": "AutoAndrew",
+        "channel_ID": 1918042652
+    },
+    "tradeSettings": {
+        "default_leverage": 20,
+        "override_leverage": true,
+        "leverage_override": 10,
+	    "leverage_on_spot_order": 1,
+        "margin_mode": "cross",
+        "risk_persentage": 2,
+        "max_cost_limit": 10,
+        "use_fixed_cost": true,
+        "fixed_cost": 10,
+        "keep_balance": 50
+    }
+}
